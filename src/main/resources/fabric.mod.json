@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "only_my_lunge",
+  "version": "${version}",
+  "name": "Only My Lunge Sounds",
+  "description": "Keeps the custom spear lunge sounds local to your own player.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/only_my_lunge/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.onlymylunge.OnlyMyLungeClient"] },
+  "mixins": ["onlymylunge.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
